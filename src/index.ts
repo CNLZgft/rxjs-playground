@@ -101,5 +101,5 @@ setTimeout(() => {
   console.log("han pasado 5 segundos");
 }, 5000);
 
-/////-----/////
+/////-----//////
 
