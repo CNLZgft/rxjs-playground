@@ -15,5 +15,79 @@
       <button id="hello">Hello</button>
       <button id="trigger">TriggerButton</button>
     </div>
+
+    <div class="container">
+      <div class="card my-4">
+        <div class="card-body">
+          <input
+            id="temperature-input"
+            class="form-control"
+            placeholder="Temperature"
+          />
+          <br />
+          <select id="conversion-dropdown" class="form-control">
+            <option value="">Choose conversion</option>
+            <option value="f-to-c">°F -> °C</option>
+            <option value="c-to-f">°C -> °F</option>
+          </select>
+          <br />
+          <p class="card-text" id="result-text">Please fill the above form</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="my-3">debounceTime</h2>
+
+      <div class="my-4 form-inline">
+        <div class="d-flex">
+          <input
+            id="slider"
+            class="form-control"
+            type="range"
+            min="0"
+            max="100"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="my-4">concatMap</h2>
+
+      <div class="my-4 form-inline">
+        <div class="d-flex">
+          <input id="endpoint" class="form-control" type="text" />
+          <button id="fetch" class="btn btn-primary mx-1">Fetch</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="my-3">Subject</h2>
+
+      <div class="my-4 form-inline">
+        <div class="d-flex">
+          <input id="value-input" class="form-control" type="text" />
+          <button id="emit" class="btn btn-secondary mx-1"> Emit </button>
+        </div>
+      </div>
+
+      <button id="subscribe" class="btn btn-primary"> Subscribe </button>
+    </div>
+
+    <div class="container">
+      <h2 class="my-3">Behavior Subject</h2>
+      <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand"
+          >Logged in: <span id="logged-in"></span
+        ></span>
+      </nav>
+      <div class="my-4 form-inline">
+        <button id="login" class="btn btn-primary mr-1"> Login </button>
+        <button id="logout" class="btn btn-primary"> Logout </button>
+      </div>
+
+      <button id="print-state" class="btn btn-secondary"> Print state </button>
+    </div>
   </body>
 </html>
